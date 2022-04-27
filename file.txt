@@ -1,0 +1,176 @@
+{
+  "id": "935cbbe5-a9e1-4658-bd11-9e12246cdc82",
+  "version": "2.0",
+  "name": "Hospital",
+  "url": "https://www.google.com/?gws_rd=ssl",
+  "tests": [{
+    "id": "f7b6d405-b69b-4f48-9170-396426c0bf5b",
+    "name": "Top hospitals",
+    "commands": [{
+      "id": "aa3d12bb-a3c2-44dc-8cff-bc0f4dc59c46",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.google.com/?gws_rd=ssl",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f66e75d6-a5b4-477c-9521-fa3ffb7e009e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1052x662",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "370c3bb5-a241-4977-8a7c-a8587b5b0911",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=center:nth-child(1) > .RNmpXc",
+      "targets": [
+        ["css=center:nth-child(1) > .RNmpXc", "css:finder"],
+        ["xpath=(//input[@name='btnI'])[2]", "xpath:attributes"],
+        ["xpath=//div[3]/center/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "74026ac3-7596-4cbf-b11d-977296dd79ae",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=center:nth-child(1) > .RNmpXc",
+      "targets": [
+        ["css=center:nth-child(1) > .RNmpXc", "css:finder"],
+        ["xpath=(//input[@name='btnI'])[2]", "xpath:attributes"],
+        ["xpath=//div[3]/center/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "69063974-04e6-4d9a-9ce5-f4a829724e90",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5cf0ded3-f5f3-437b-a96c-f39b922b347f",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.gLFyf", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Hospitals in Nagpur"
+    }, {
+      "id": "33727813-b5d2-40c7-acbe-8c071bc017b1",
+      "comment": "",
+      "command": "click",
+      "target": "name=btnK",
+      "targets": [
+        ["name=btnK", "name"],
+        ["css=center:nth-child(2) > .gNO89b", "css:finder"],
+        ["xpath=//input[@name='btnK']", "xpath:attributes"],
+        ["xpath=//center/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e5180fa6-0a4e-47d8-b6e5-ff0c5e062e0f",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Images",
+      "targets": [
+        ["linkText=Images", "linkText"],
+        ["css=.hdtb-mitem:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Images')]", "xpath:link"],
+        ["xpath=//div[@id='hdtb-msb']/div/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/search?q=Hospitals+in+Nagpur&sxsrf=APq-WBtFUr_mO4XgvhCyuGSW0GM65pbn_w:1645680938975&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjxzp-ez5f2AhVUxDgGHW96DnkQ_AUoAnoECAEQBA')]", "xpath:href"],
+        ["xpath=//div/div/div/div/div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Images')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b320041e-b9c1-405f-8505-1dd5f58772d8",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "linkText=Images",
+      "targets": [
+        ["linkText=Images", "linkText"],
+        ["css=.hdtb-mitem:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Images')]", "xpath:link"],
+        ["xpath=//div[@id='hdtb-msb']/div/div/div[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/search?q=Hospitals+in+Nagpur&sxsrf=APq-WBtFUr_mO4XgvhCyuGSW0GM65pbn_w:1645680938975&source=lnms&tbm=isch&sa=X&ved=2ahUKEwjxzp-ez5f2AhVUxDgGHW96DnkQ_AUoAnoECAEQBA')]", "xpath:href"],
+        ["xpath=//div/div/div/div/div[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Images')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4c2e3ce-6e08-4509-99c7-7a1789b9da68",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bcUTBf:nth-child(1) .ZkkK1e",
+      "targets": [
+        ["css=.bcUTBf:nth-child(1) .ZkkK1e", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div[3]/div/div/div/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0427e8b7-0e7b-4a65-8f0d-7a68e7327b02",
+      "comment": "",
+      "command": "click",
+      "target": "css=.w3RMhb:nth-child(3) .z3HNkc > span",
+      "targets": [
+        ["css=.w3RMhb:nth-child(3) .z3HNkc > span", "css:finder"],
+        ["xpath=//div[@id='filter_1']/div[3]/span/span/span[2]/span", "xpath:idRelative"],
+        ["xpath=//div[3]/span/span/span[2]/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5d4891d4-3752-4bab-a23c-30d79bde7944",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bcUTBf:nth-child(2) .WaZi0e",
+      "targets": [
+        ["css=.bcUTBf:nth-child(2) .WaZi0e", "css:finder"],
+        ["xpath=//div[@id='rllhd__fldhc']/div/div/div/div/div[2]/div/div/div/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Hours')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b1438d60-9705-4ad1-8ce9-f6253283dc4a",
+      "comment": "",
+      "command": "click",
+      "target": "css=div:nth-child(1) > .w3RMhb:nth-child(3) > span",
+      "targets": [
+        ["css=div:nth-child(1) > .w3RMhb:nth-child(3) > span", "css:finder"],
+        ["xpath=//div[@id='filter_2']/div/div[3]/span", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Open 24 hours')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "141658d2-ec12-4bd9-9fd0-2f0fdc63512f",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "7b460ec7-d8a8-4249-ad66-2ce29f19e56e",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["f7b6d405-b69b-4f48-9170-396426c0bf5b"]
+  }],
+  "urls": ["https://www.google.com/?gws_rd=ssl"],
+  "plugins": []
+}
